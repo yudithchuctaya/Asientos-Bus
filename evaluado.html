@@ -57,13 +57,13 @@
     <td class="celdita">17</td>
     <td class="celdita">21</td>
     <td class="celdita">25</td>
-    <td class="celdita">28</td>
+    <td class="celdita">29</td>
   </tr>
  </table>
   <br>
   <label for=" DNI">DNI:</label>
-  <input type="text"  name="" value="">
-  <button type="buscar" >Buscar</button>
+  <input type="number"  name="" value="">
+  <button type="buscar" onclick="buscar()">Buscar</button>
   <p>    </p>
   <label for=" Nomb"><strong>Nombre:</strong></label><br>
   <input type="text" id="nombre"  placeholder="Ingresa tu nombre" name="" value="">   
@@ -72,19 +72,20 @@
   <input type="text"  id="apellido" placeholder="Ingresa tus Apellidos" name="" value="">
   <br><p>  </p>
   <label for=" DNI"><strong>DNI:</strong></label><br>
-  <input type="text" id="dni" placeholder="Ingresa tu DNI" name="" value=""> 
+  <input type="number" id="dni" placeholder="Ingresa tu DNI" name="" value=""> 
   <p>  </p>
   <button type=" button" onclick="reservar()">Reservar</button>
 
- <button type="cancelar">Cancelar</button>
+ <button type="cancelar" onclick="cancelar()">Cancelar</button>
   <br><P>  </P>
  <button type="listar">LISTAR</button>
 <!-- <button type="button" onclick="redirect();return false ">seleccionars</button> -->
- <script  src ="evaluado.js" type="text/javascript"></script>
+ <script  src ="js/evaluado.js" type="text/javascript"></script>
  
 <div id="mostrar" >
-<!-- <div id ="mostrardatos"> </div> -->
+
 </div>
+<div id ="listar"></div>
 
   </center>
   </body>
