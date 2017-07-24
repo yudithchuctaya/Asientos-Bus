@@ -55,9 +55,7 @@ function cancelar(){
     asientos[numeroAsientos - 1] = undefined;
     console.log(cancel);
     celda.style.backgroundColor="transparet";
-
-        
- } 
+} 
 
  
  function buscar (){
